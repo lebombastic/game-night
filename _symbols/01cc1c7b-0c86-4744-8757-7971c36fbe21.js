@@ -565,7 +565,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (424:8) {#if modalOpen && selectedGame}
+// (426:8) {#if modalOpen && selectedGame}
 function create_if_block(ctx) {
 	let div3;
 	let div2;
@@ -787,26 +787,26 @@ function create_if_block(ctx) {
 		},
 		h() {
 			attr(h2, "id", "modal-title");
-			attr(h2, "class", "svelte-179naqe");
-			attr(button, "class", "close-button svelte-179naqe");
+			attr(h2, "class", "svelte-ll3htz");
+			attr(button, "class", "close-button svelte-ll3htz");
 			attr(button, "aria-label", button_aria_label_value = /*isArabic*/ ctx[0] ? "إغلاق" : "Close");
-			attr(div0, "class", "modal-header svelte-179naqe");
-			attr(h30, "class", "svelte-179naqe");
-			attr(section0, "class", "svelte-179naqe");
-			attr(h31, "class", "svelte-179naqe");
-			attr(ol0, "class", "svelte-179naqe");
-			attr(section1, "class", "svelte-179naqe");
-			attr(h32, "class", "svelte-179naqe");
-			attr(section2, "class", "svelte-179naqe");
-			attr(h33, "class", "svelte-179naqe");
-			attr(ol1, "class", "svelte-179naqe");
-			attr(section3, "class", "svelte-179naqe");
-			attr(div1, "class", "modal-content svelte-179naqe");
-			attr(div2, "class", "modal svelte-179naqe");
+			attr(div0, "class", "modal-header svelte-ll3htz");
+			attr(h30, "class", "svelte-ll3htz");
+			attr(section0, "class", "svelte-ll3htz");
+			attr(h31, "class", "svelte-ll3htz");
+			attr(ol0, "class", "svelte-ll3htz");
+			attr(section1, "class", "svelte-ll3htz");
+			attr(h32, "class", "svelte-ll3htz");
+			attr(section2, "class", "svelte-ll3htz");
+			attr(h33, "class", "svelte-ll3htz");
+			attr(ol1, "class", "svelte-ll3htz");
+			attr(section3, "class", "svelte-ll3htz");
+			attr(div1, "class", "modal-content svelte-ll3htz");
+			attr(div2, "class", "modal svelte-ll3htz");
 			attr(div2, "role", "dialog");
 			attr(div2, "aria-modal", "true");
 			attr(div2, "aria-labelledby", "modal-title");
-			attr(div3, "class", "modal-overlay svelte-179naqe");
+			attr(div3, "class", "modal-overlay svelte-ll3htz");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div3, anchor);
@@ -956,7 +956,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (442:32) {#each (isArabic ? selectedGame.howToPlayAr : selectedGame.howToPlayEn) as step}
+// (444:32) {#each (isArabic ? selectedGame.howToPlayAr : selectedGame.howToPlayEn) as step}
 function create_each_block_1(ctx) {
 	let li;
 	let t_value = /*step*/ ctx[18] + "";
@@ -976,7 +976,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(li, "class", "svelte-179naqe");
+			attr(li, "class", "svelte-ll3htz");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -991,7 +991,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (455:32) {#each (isArabic ? selectedGame.rulesAr : selectedGame.rulesEn) as step}
+// (457:32) {#each (isArabic ? selectedGame.rulesAr : selectedGame.rulesEn) as step}
 function create_each_block(ctx) {
 	let li;
 	let t_value = /*step*/ ctx[18] + "";
@@ -1011,7 +1011,7 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(li, "class", "svelte-179naqe");
+			attr(li, "class", "svelte-ll3htz");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -1028,7 +1028,7 @@ function create_each_block(ctx) {
 
 function create_fragment(ctx) {
 	let main;
-	let div19;
+	let div20;
 	let header;
 	let h1;
 	let t0_value = (/*isArabic*/ ctx[0] ? 'ليلة الألعاب' : 'Game Night') + "";
@@ -1042,6 +1042,7 @@ function create_fragment(ctx) {
 
 	let t2;
 	let t3;
+	let div0;
 	let a;
 	let img;
 	let img_src_value;
@@ -1058,13 +1059,13 @@ function create_fragment(ctx) {
 	let t7;
 	let button0_aria_label_value;
 	let t8;
-	let div18;
+	let div19;
+	let div6;
 	let div5;
-	let div4;
-	let div0;
+	let div1;
 	let t9;
 	let t10;
-	let div1;
+	let div2;
 	let t11;
 	let t12;
 	let ul0;
@@ -1099,10 +1100,10 @@ function create_fragment(ctx) {
 	let li9;
 	let t31;
 	let t32;
-	let div2;
+	let div3;
 	let t33;
 	let t34;
-	let div3;
+	let div4;
 	let t35;
 	let t36;
 	let ul2;
@@ -1124,12 +1125,12 @@ function create_fragment(ctx) {
 	let t45;
 	let button1_aria_label_value;
 	let t46;
+	let div12;
 	let div11;
-	let div10;
-	let div6;
+	let div7;
 	let t47;
 	let t48;
-	let div7;
+	let div8;
 	let t49;
 	let t50;
 	let ul4;
@@ -1164,10 +1165,10 @@ function create_fragment(ctx) {
 	let li23;
 	let t69;
 	let t70;
-	let div8;
+	let div9;
 	let t71;
 	let t72;
-	let div9;
+	let div10;
 	let t73;
 	let t74;
 	let ul6;
@@ -1189,12 +1190,12 @@ function create_fragment(ctx) {
 	let t83;
 	let button2_aria_label_value;
 	let t84;
+	let div18;
 	let div17;
-	let div16;
-	let div12;
+	let div13;
 	let t85;
 	let t86;
-	let div13;
+	let div14;
 	let t87;
 	let t88;
 	let ul8;
@@ -1229,10 +1230,10 @@ function create_fragment(ctx) {
 	let li37;
 	let t107;
 	let t108;
-	let div14;
+	let div15;
 	let t109;
 	let t110;
-	let div15;
+	let div16;
 	let t111;
 	let t112;
 	let ul10;
@@ -1262,7 +1263,7 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			main = element("main");
-			div19 = element("div");
+			div20 = element("div");
 			header = element("header");
 			h1 = element("h1");
 			t0 = text(t0_value);
@@ -1270,6 +1271,7 @@ function create_fragment(ctx) {
 			p = element("p");
 			t2 = text(t2_value);
 			t3 = space();
+			div0 = element("div");
 			a = element("a");
 			img = element("img");
 			t4 = space();
@@ -1278,13 +1280,13 @@ function create_fragment(ctx) {
 			button0 = element("button");
 			t7 = text(t7_value);
 			t8 = space();
-			div18 = element("div");
+			div19 = element("div");
+			div6 = element("div");
 			div5 = element("div");
-			div4 = element("div");
-			div0 = element("div");
+			div1 = element("div");
 			t9 = text("A fun card elimination game where the goal is to get rid of all your cards.");
 			t10 = space();
-			div1 = element("div");
+			div2 = element("div");
 			t11 = text("لعبة بطاقات ممتعة هدفها التخلص من جميع البطاقات الخاصة بك.");
 			t12 = space();
 			ul0 = element("ul");
@@ -1319,10 +1321,10 @@ function create_fragment(ctx) {
 			li9 = element("li");
 			t31 = text("آخر لاعب لديه بطاقات هو 'شيتهيد'.");
 			t32 = space();
-			div2 = element("div");
+			div3 = element("div");
 			t33 = text("3-6 players, standard deck of cards");
 			t34 = space();
-			div3 = element("div");
+			div4 = element("div");
 			t35 = text("3-6 لاعبين، مجموعة بطاقات قياسية");
 			t36 = space();
 			ul2 = element("ul");
@@ -1342,12 +1344,12 @@ function create_fragment(ctx) {
 			button1 = element("button");
 			t45 = text(t45_value);
 			t46 = space();
+			div12 = element("div");
 			div11 = element("div");
-			div10 = element("div");
-			div6 = element("div");
+			div7 = element("div");
 			t47 = text("A strategic card shedding game where players try to play all their cards around the 7s.");
 			t48 = space();
-			div7 = element("div");
+			div8 = element("div");
 			t49 = text("لعبة بطاقات استراتيجية يحاول فيها اللاعبون لعب جميع بطاقاتهم حول السبعات.");
 			t50 = space();
 			ul4 = element("ul");
@@ -1382,10 +1384,10 @@ function create_fragment(ctx) {
 			li23 = element("li");
 			t69 = text("اللاعب الأول الذي يتخلص من جميع البطاقات يفوز.");
 			t70 = space();
-			div8 = element("div");
+			div9 = element("div");
 			t71 = text("2-8 players, standard deck of cards");
 			t72 = space();
-			div9 = element("div");
+			div10 = element("div");
 			t73 = text("2-8 لاعبين، مجموعة بطاقات قياسية");
 			t74 = space();
 			ul6 = element("ul");
@@ -1405,12 +1407,12 @@ function create_fragment(ctx) {
 			button2 = element("button");
 			t83 = text(t83_value);
 			t84 = space();
+			div18 = element("div");
 			div17 = element("div");
-			div16 = element("div");
-			div12 = element("div");
+			div13 = element("div");
 			t85 = text("A trick-taking card game where the goal is to avoid collecting hearts and the Queen of Spades.");
 			t86 = space();
-			div13 = element("div");
+			div14 = element("div");
 			t87 = text("لعبة بطاقات تعتمد على أخذ الأوراق، حيث الهدف هو تجنب جمع القلوب وملكة البستوني.");
 			t88 = space();
 			ul8 = element("ul");
@@ -1445,10 +1447,10 @@ function create_fragment(ctx) {
 			li37 = element("li");
 			t107 = text("اللاعب صاحب أقل نقاط بعد عدد متفق عليه من الجولات يفوز.");
 			t108 = space();
-			div14 = element("div");
+			div15 = element("div");
 			t109 = text("4 players, standard deck of cards");
 			t110 = space();
-			div15 = element("div");
+			div16 = element("div");
 			t111 = text("4 لاعبين، مجموعة بطاقات قياسية");
 			t112 = space();
 			ul10 = element("ul");
@@ -1474,9 +1476,9 @@ function create_fragment(ctx) {
 		l(nodes) {
 			main = claim_element(nodes, "MAIN", { class: true });
 			var main_nodes = children(main);
-			div19 = claim_element(main_nodes, "DIV", { class: true });
-			var div19_nodes = children(div19);
-			header = claim_element(div19_nodes, "HEADER", { class: true });
+			div20 = claim_element(main_nodes, "DIV", { class: true });
+			var div20_nodes = children(div20);
+			header = claim_element(div20_nodes, "HEADER", { class: true });
 			var header_nodes = children(header);
 			h1 = claim_element(header_nodes, "H1", { class: true });
 			var h1_nodes = children(h1);
@@ -1488,42 +1490,45 @@ function create_fragment(ctx) {
 			t2 = claim_text(p_nodes, t2_value);
 			p_nodes.forEach(detach);
 			t3 = claim_space(header_nodes);
-			a = claim_element(header_nodes, "A", { href: true, class: true });
+			div0 = claim_element(header_nodes, "DIV", {});
+			var div0_nodes = children(div0);
+			a = claim_element(div0_nodes, "A", { href: true, class: true });
 			var a_nodes = children(a);
 			img = claim_element(a_nodes, "IMG", { src: true, alt: true, class: true });
 			t4 = claim_space(a_nodes);
 			t5 = claim_text(a_nodes, t5_value);
 			a_nodes.forEach(detach);
-			t6 = claim_space(header_nodes);
-			button0 = claim_element(header_nodes, "BUTTON", { class: true, "aria-label": true });
+			t6 = claim_space(div0_nodes);
+			button0 = claim_element(div0_nodes, "BUTTON", { class: true, "aria-label": true });
 			var button0_nodes = children(button0);
 			t7 = claim_text(button0_nodes, t7_value);
 			button0_nodes.forEach(detach);
+			div0_nodes.forEach(detach);
 			header_nodes.forEach(detach);
-			t8 = claim_space(div19_nodes);
-			div18 = claim_element(div19_nodes, "DIV", { class: true });
-			var div18_nodes = children(div18);
+			t8 = claim_space(div20_nodes);
+			div19 = claim_element(div20_nodes, "DIV", { class: true });
+			var div19_nodes = children(div19);
 
-			div5 = claim_element(div18_nodes, "DIV", {
+			div6 = claim_element(div19_nodes, "DIV", {
 				class: true,
 				"data-name": true,
 				"data-name-ar": true
 			});
 
+			var div6_nodes = children(div6);
+			div5 = claim_element(div6_nodes, "DIV", { style: true });
 			var div5_nodes = children(div5);
-			div4 = claim_element(div5_nodes, "DIV", { style: true });
-			var div4_nodes = children(div4);
-			div0 = claim_element(div4_nodes, "DIV", { class: true });
-			var div0_nodes = children(div0);
-			t9 = claim_text(div0_nodes, "A fun card elimination game where the goal is to get rid of all your cards.");
-			div0_nodes.forEach(detach);
-			t10 = claim_space(div4_nodes);
-			div1 = claim_element(div4_nodes, "DIV", { class: true });
+			div1 = claim_element(div5_nodes, "DIV", { class: true });
 			var div1_nodes = children(div1);
-			t11 = claim_text(div1_nodes, "لعبة بطاقات ممتعة هدفها التخلص من جميع البطاقات الخاصة بك.");
+			t9 = claim_text(div1_nodes, "A fun card elimination game where the goal is to get rid of all your cards.");
 			div1_nodes.forEach(detach);
-			t12 = claim_space(div4_nodes);
-			ul0 = claim_element(div4_nodes, "UL", { class: true });
+			t10 = claim_space(div5_nodes);
+			div2 = claim_element(div5_nodes, "DIV", { class: true });
+			var div2_nodes = children(div2);
+			t11 = claim_text(div2_nodes, "لعبة بطاقات ممتعة هدفها التخلص من جميع البطاقات الخاصة بك.");
+			div2_nodes.forEach(detach);
+			t12 = claim_space(div5_nodes);
+			ul0 = claim_element(div5_nodes, "UL", { class: true });
 			var ul0_nodes = children(ul0);
 			li0 = claim_element(ul0_nodes, "LI", { class: true });
 			var li0_nodes = children(li0);
@@ -1550,8 +1555,8 @@ function create_fragment(ctx) {
 			t21 = claim_text(li4_nodes, "Last player with cards is the 'Shithead'.");
 			li4_nodes.forEach(detach);
 			ul0_nodes.forEach(detach);
-			t22 = claim_space(div4_nodes);
-			ul1 = claim_element(div4_nodes, "UL", { class: true });
+			t22 = claim_space(div5_nodes);
+			ul1 = claim_element(div5_nodes, "UL", { class: true });
 			var ul1_nodes = children(ul1);
 			li5 = claim_element(ul1_nodes, "LI", { class: true });
 			var li5_nodes = children(li5);
@@ -1578,18 +1583,18 @@ function create_fragment(ctx) {
 			t31 = claim_text(li9_nodes, "آخر لاعب لديه بطاقات هو 'شيتهيد'.");
 			li9_nodes.forEach(detach);
 			ul1_nodes.forEach(detach);
-			t32 = claim_space(div4_nodes);
-			div2 = claim_element(div4_nodes, "DIV", { class: true });
-			var div2_nodes = children(div2);
-			t33 = claim_text(div2_nodes, "3-6 players, standard deck of cards");
-			div2_nodes.forEach(detach);
-			t34 = claim_space(div4_nodes);
-			div3 = claim_element(div4_nodes, "DIV", { class: true });
+			t32 = claim_space(div5_nodes);
+			div3 = claim_element(div5_nodes, "DIV", { class: true });
 			var div3_nodes = children(div3);
-			t35 = claim_text(div3_nodes, "3-6 لاعبين، مجموعة بطاقات قياسية");
+			t33 = claim_text(div3_nodes, "3-6 players, standard deck of cards");
 			div3_nodes.forEach(detach);
-			t36 = claim_space(div4_nodes);
-			ul2 = claim_element(div4_nodes, "UL", { class: true });
+			t34 = claim_space(div5_nodes);
+			div4 = claim_element(div5_nodes, "DIV", { class: true });
+			var div4_nodes = children(div4);
+			t35 = claim_text(div4_nodes, "3-6 لاعبين، مجموعة بطاقات قياسية");
+			div4_nodes.forEach(detach);
+			t36 = claim_space(div5_nodes);
+			ul2 = claim_element(div5_nodes, "UL", { class: true });
 			var ul2_nodes = children(ul2);
 			li10 = claim_element(ul2_nodes, "LI", { class: true });
 			var li10_nodes = children(li10);
@@ -1601,8 +1606,8 @@ function create_fragment(ctx) {
 			t39 = claim_text(li11_nodes, "Have Fun!");
 			li11_nodes.forEach(detach);
 			ul2_nodes.forEach(detach);
-			t40 = claim_space(div4_nodes);
-			ul3 = claim_element(div4_nodes, "UL", { class: true });
+			t40 = claim_space(div5_nodes);
+			ul3 = claim_element(div5_nodes, "UL", { class: true });
 			var ul3_nodes = children(ul3);
 			li12 = claim_element(ul3_nodes, "LI", { class: true });
 			var li12_nodes = children(li12);
@@ -1614,35 +1619,35 @@ function create_fragment(ctx) {
 			t43 = claim_text(li13_nodes, "استمتع");
 			li13_nodes.forEach(detach);
 			ul3_nodes.forEach(detach);
-			div4_nodes.forEach(detach);
-			t44 = claim_space(div5_nodes);
-			button1 = claim_element(div5_nodes, "BUTTON", { class: true, "aria-label": true });
+			div5_nodes.forEach(detach);
+			t44 = claim_space(div6_nodes);
+			button1 = claim_element(div6_nodes, "BUTTON", { class: true, "aria-label": true });
 			var button1_nodes = children(button1);
 			t45 = claim_text(button1_nodes, t45_value);
 			button1_nodes.forEach(detach);
-			div5_nodes.forEach(detach);
-			t46 = claim_space(div18_nodes);
+			div6_nodes.forEach(detach);
+			t46 = claim_space(div19_nodes);
 
-			div11 = claim_element(div18_nodes, "DIV", {
+			div12 = claim_element(div19_nodes, "DIV", {
 				class: true,
 				"data-name": true,
 				"data-name-ar": true
 			});
 
+			var div12_nodes = children(div12);
+			div11 = claim_element(div12_nodes, "DIV", { style: true });
 			var div11_nodes = children(div11);
-			div10 = claim_element(div11_nodes, "DIV", { style: true });
-			var div10_nodes = children(div10);
-			div6 = claim_element(div10_nodes, "DIV", { class: true });
-			var div6_nodes = children(div6);
-			t47 = claim_text(div6_nodes, "A strategic card shedding game where players try to play all their cards around the 7s.");
-			div6_nodes.forEach(detach);
-			t48 = claim_space(div10_nodes);
-			div7 = claim_element(div10_nodes, "DIV", { class: true });
+			div7 = claim_element(div11_nodes, "DIV", { class: true });
 			var div7_nodes = children(div7);
-			t49 = claim_text(div7_nodes, "لعبة بطاقات استراتيجية يحاول فيها اللاعبون لعب جميع بطاقاتهم حول السبعات.");
+			t47 = claim_text(div7_nodes, "A strategic card shedding game where players try to play all their cards around the 7s.");
 			div7_nodes.forEach(detach);
-			t50 = claim_space(div10_nodes);
-			ul4 = claim_element(div10_nodes, "UL", { class: true });
+			t48 = claim_space(div11_nodes);
+			div8 = claim_element(div11_nodes, "DIV", { class: true });
+			var div8_nodes = children(div8);
+			t49 = claim_text(div8_nodes, "لعبة بطاقات استراتيجية يحاول فيها اللاعبون لعب جميع بطاقاتهم حول السبعات.");
+			div8_nodes.forEach(detach);
+			t50 = claim_space(div11_nodes);
+			ul4 = claim_element(div11_nodes, "UL", { class: true });
 			var ul4_nodes = children(ul4);
 			li14 = claim_element(ul4_nodes, "LI", { class: true });
 			var li14_nodes = children(li14);
@@ -1669,8 +1674,8 @@ function create_fragment(ctx) {
 			t59 = claim_text(li18_nodes, "First player to get rid of all cards wins.");
 			li18_nodes.forEach(detach);
 			ul4_nodes.forEach(detach);
-			t60 = claim_space(div10_nodes);
-			ul5 = claim_element(div10_nodes, "UL", { class: true });
+			t60 = claim_space(div11_nodes);
+			ul5 = claim_element(div11_nodes, "UL", { class: true });
 			var ul5_nodes = children(ul5);
 			li19 = claim_element(ul5_nodes, "LI", { class: true });
 			var li19_nodes = children(li19);
@@ -1697,18 +1702,18 @@ function create_fragment(ctx) {
 			t69 = claim_text(li23_nodes, "اللاعب الأول الذي يتخلص من جميع البطاقات يفوز.");
 			li23_nodes.forEach(detach);
 			ul5_nodes.forEach(detach);
-			t70 = claim_space(div10_nodes);
-			div8 = claim_element(div10_nodes, "DIV", { class: true });
-			var div8_nodes = children(div8);
-			t71 = claim_text(div8_nodes, "2-8 players, standard deck of cards");
-			div8_nodes.forEach(detach);
-			t72 = claim_space(div10_nodes);
-			div9 = claim_element(div10_nodes, "DIV", { class: true });
+			t70 = claim_space(div11_nodes);
+			div9 = claim_element(div11_nodes, "DIV", { class: true });
 			var div9_nodes = children(div9);
-			t73 = claim_text(div9_nodes, "2-8 لاعبين، مجموعة بطاقات قياسية");
+			t71 = claim_text(div9_nodes, "2-8 players, standard deck of cards");
 			div9_nodes.forEach(detach);
-			t74 = claim_space(div10_nodes);
-			ul6 = claim_element(div10_nodes, "UL", { class: true });
+			t72 = claim_space(div11_nodes);
+			div10 = claim_element(div11_nodes, "DIV", { class: true });
+			var div10_nodes = children(div10);
+			t73 = claim_text(div10_nodes, "2-8 لاعبين، مجموعة بطاقات قياسية");
+			div10_nodes.forEach(detach);
+			t74 = claim_space(div11_nodes);
+			ul6 = claim_element(div11_nodes, "UL", { class: true });
 			var ul6_nodes = children(ul6);
 			li24 = claim_element(ul6_nodes, "LI", { class: true });
 			var li24_nodes = children(li24);
@@ -1720,8 +1725,8 @@ function create_fragment(ctx) {
 			t77 = claim_text(li25_nodes, "Have Fun!");
 			li25_nodes.forEach(detach);
 			ul6_nodes.forEach(detach);
-			t78 = claim_space(div10_nodes);
-			ul7 = claim_element(div10_nodes, "UL", { class: true });
+			t78 = claim_space(div11_nodes);
+			ul7 = claim_element(div11_nodes, "UL", { class: true });
 			var ul7_nodes = children(ul7);
 			li26 = claim_element(ul7_nodes, "LI", { class: true });
 			var li26_nodes = children(li26);
@@ -1733,35 +1738,35 @@ function create_fragment(ctx) {
 			t81 = claim_text(li27_nodes, "استمتع");
 			li27_nodes.forEach(detach);
 			ul7_nodes.forEach(detach);
-			div10_nodes.forEach(detach);
-			t82 = claim_space(div11_nodes);
-			button2 = claim_element(div11_nodes, "BUTTON", { class: true, "aria-label": true });
+			div11_nodes.forEach(detach);
+			t82 = claim_space(div12_nodes);
+			button2 = claim_element(div12_nodes, "BUTTON", { class: true, "aria-label": true });
 			var button2_nodes = children(button2);
 			t83 = claim_text(button2_nodes, t83_value);
 			button2_nodes.forEach(detach);
-			div11_nodes.forEach(detach);
-			t84 = claim_space(div18_nodes);
+			div12_nodes.forEach(detach);
+			t84 = claim_space(div19_nodes);
 
-			div17 = claim_element(div18_nodes, "DIV", {
+			div18 = claim_element(div19_nodes, "DIV", {
 				class: true,
 				"data-name": true,
 				"data-name-ar": true
 			});
 
+			var div18_nodes = children(div18);
+			div17 = claim_element(div18_nodes, "DIV", { style: true });
 			var div17_nodes = children(div17);
-			div16 = claim_element(div17_nodes, "DIV", { style: true });
-			var div16_nodes = children(div16);
-			div12 = claim_element(div16_nodes, "DIV", { class: true });
-			var div12_nodes = children(div12);
-			t85 = claim_text(div12_nodes, "A trick-taking card game where the goal is to avoid collecting hearts and the Queen of Spades.");
-			div12_nodes.forEach(detach);
-			t86 = claim_space(div16_nodes);
-			div13 = claim_element(div16_nodes, "DIV", { class: true });
+			div13 = claim_element(div17_nodes, "DIV", { class: true });
 			var div13_nodes = children(div13);
-			t87 = claim_text(div13_nodes, "لعبة بطاقات تعتمد على أخذ الأوراق، حيث الهدف هو تجنب جمع القلوب وملكة البستوني.");
+			t85 = claim_text(div13_nodes, "A trick-taking card game where the goal is to avoid collecting hearts and the Queen of Spades.");
 			div13_nodes.forEach(detach);
-			t88 = claim_space(div16_nodes);
-			ul8 = claim_element(div16_nodes, "UL", { class: true });
+			t86 = claim_space(div17_nodes);
+			div14 = claim_element(div17_nodes, "DIV", { class: true });
+			var div14_nodes = children(div14);
+			t87 = claim_text(div14_nodes, "لعبة بطاقات تعتمد على أخذ الأوراق، حيث الهدف هو تجنب جمع القلوب وملكة البستوني.");
+			div14_nodes.forEach(detach);
+			t88 = claim_space(div17_nodes);
+			ul8 = claim_element(div17_nodes, "UL", { class: true });
 			var ul8_nodes = children(ul8);
 			li28 = claim_element(ul8_nodes, "LI", { class: true });
 			var li28_nodes = children(li28);
@@ -1788,8 +1793,8 @@ function create_fragment(ctx) {
 			t97 = claim_text(li32_nodes, "Player with lowest score after agreed number of rounds wins.");
 			li32_nodes.forEach(detach);
 			ul8_nodes.forEach(detach);
-			t98 = claim_space(div16_nodes);
-			ul9 = claim_element(div16_nodes, "UL", { class: true });
+			t98 = claim_space(div17_nodes);
+			ul9 = claim_element(div17_nodes, "UL", { class: true });
 			var ul9_nodes = children(ul9);
 			li33 = claim_element(ul9_nodes, "LI", { class: true });
 			var li33_nodes = children(li33);
@@ -1816,18 +1821,18 @@ function create_fragment(ctx) {
 			t107 = claim_text(li37_nodes, "اللاعب صاحب أقل نقاط بعد عدد متفق عليه من الجولات يفوز.");
 			li37_nodes.forEach(detach);
 			ul9_nodes.forEach(detach);
-			t108 = claim_space(div16_nodes);
-			div14 = claim_element(div16_nodes, "DIV", { class: true });
-			var div14_nodes = children(div14);
-			t109 = claim_text(div14_nodes, "4 players, standard deck of cards");
-			div14_nodes.forEach(detach);
-			t110 = claim_space(div16_nodes);
-			div15 = claim_element(div16_nodes, "DIV", { class: true });
+			t108 = claim_space(div17_nodes);
+			div15 = claim_element(div17_nodes, "DIV", { class: true });
 			var div15_nodes = children(div15);
-			t111 = claim_text(div15_nodes, "4 لاعبين، مجموعة بطاقات قياسية");
+			t109 = claim_text(div15_nodes, "4 players, standard deck of cards");
 			div15_nodes.forEach(detach);
-			t112 = claim_space(div16_nodes);
-			ul10 = claim_element(div16_nodes, "UL", { class: true });
+			t110 = claim_space(div17_nodes);
+			div16 = claim_element(div17_nodes, "DIV", { class: true });
+			var div16_nodes = children(div16);
+			t111 = claim_text(div16_nodes, "4 لاعبين، مجموعة بطاقات قياسية");
+			div16_nodes.forEach(detach);
+			t112 = claim_space(div17_nodes);
+			ul10 = claim_element(div17_nodes, "UL", { class: true });
 			var ul10_nodes = children(ul10);
 			li38 = claim_element(ul10_nodes, "LI", { class: true });
 			var li38_nodes = children(li38);
@@ -1839,8 +1844,8 @@ function create_fragment(ctx) {
 			t115 = claim_text(li39_nodes, "Have Fun!");
 			li39_nodes.forEach(detach);
 			ul10_nodes.forEach(detach);
-			t116 = claim_space(div16_nodes);
-			ul11 = claim_element(div16_nodes, "UL", { class: true });
+			t116 = claim_space(div17_nodes);
+			ul11 = claim_element(div17_nodes, "UL", { class: true });
 			var ul11_nodes = children(ul11);
 			li40 = claim_element(ul11_nodes, "LI", { class: true });
 			var li40_nodes = children(li40);
@@ -1852,163 +1857,164 @@ function create_fragment(ctx) {
 			t119 = claim_text(li41_nodes, "استمتع");
 			li41_nodes.forEach(detach);
 			ul11_nodes.forEach(detach);
-			div16_nodes.forEach(detach);
-			t120 = claim_space(div17_nodes);
-			button3 = claim_element(div17_nodes, "BUTTON", { class: true, "aria-label": true });
+			div17_nodes.forEach(detach);
+			t120 = claim_space(div18_nodes);
+			button3 = claim_element(div18_nodes, "BUTTON", { class: true, "aria-label": true });
 			var button3_nodes = children(button3);
 			t121 = claim_text(button3_nodes, t121_value);
 			button3_nodes.forEach(detach);
-			div17_nodes.forEach(detach);
 			div18_nodes.forEach(detach);
-			t122 = claim_space(div19_nodes);
-			if (if_block) if_block.l(div19_nodes);
 			div19_nodes.forEach(detach);
+			t122 = claim_space(div20_nodes);
+			if (if_block) if_block.l(div20_nodes);
+			div20_nodes.forEach(detach);
 			main_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "svelte-179naqe");
-			attr(p, "class", "game-night-description svelte-179naqe");
+			attr(h1, "class", "svelte-ll3htz");
+			attr(p, "class", "game-night-description svelte-ll3htz");
 			if (!src_url_equal(img.src, img_src_value = "whatsapp-icon.png")) attr(img, "src", img_src_value);
 			attr(img, "alt", "WhatsApp Icon");
-			attr(img, "class", "whatsapp-icon svelte-179naqe");
+			attr(img, "class", "whatsapp-icon svelte-ll3htz");
 			attr(a, "href", "https://chat.whatsapp.com/YOUR_ACTUAL_GROUP_LINK");
-			attr(a, "class", "whatsapp-button svelte-179naqe");
-			attr(button0, "class", "language-toggle svelte-179naqe");
+			attr(a, "class", "whatsapp-button svelte-ll3htz");
+			attr(button0, "class", "language-toggle svelte-ll3htz");
 
 			attr(button0, "aria-label", button0_aria_label_value = /*isArabic*/ ctx[0]
 			? "Switch to English"
 			: "Switch to Arabic");
 
-			attr(header, "class", "svelte-179naqe");
-			attr(div0, "class", "game-description-en");
-			attr(div1, "class", "game-description-ar");
-			attr(li0, "class", "svelte-179naqe");
-			attr(li1, "class", "svelte-179naqe");
-			attr(li2, "class", "svelte-179naqe");
-			attr(li3, "class", "svelte-179naqe");
-			attr(li4, "class", "svelte-179naqe");
-			attr(ul0, "class", "game-howtoplay-en svelte-179naqe");
-			attr(li5, "class", "svelte-179naqe");
-			attr(li6, "class", "svelte-179naqe");
-			attr(li7, "class", "svelte-179naqe");
-			attr(li8, "class", "svelte-179naqe");
-			attr(li9, "class", "svelte-179naqe");
-			attr(ul1, "class", "game-howtoplay-ar svelte-179naqe");
-			attr(div2, "class", "game-requirements-en");
-			attr(div3, "class", "game-requirements-ar");
-			attr(li10, "class", "svelte-179naqe");
-			attr(li11, "class", "svelte-179naqe");
-			attr(ul2, "class", "game-rules-en svelte-179naqe");
-			attr(li12, "class", "svelte-179naqe");
-			attr(li13, "class", "svelte-179naqe");
-			attr(ul3, "class", "game-rules-ar svelte-179naqe");
-			set_style(div4, "display", "none");
-			attr(button1, "class", "game-button svelte-179naqe");
+			attr(header, "class", "svelte-ll3htz");
+			attr(div1, "class", "game-description-en");
+			attr(div2, "class", "game-description-ar");
+			attr(li0, "class", "svelte-ll3htz");
+			attr(li1, "class", "svelte-ll3htz");
+			attr(li2, "class", "svelte-ll3htz");
+			attr(li3, "class", "svelte-ll3htz");
+			attr(li4, "class", "svelte-ll3htz");
+			attr(ul0, "class", "game-howtoplay-en svelte-ll3htz");
+			attr(li5, "class", "svelte-ll3htz");
+			attr(li6, "class", "svelte-ll3htz");
+			attr(li7, "class", "svelte-ll3htz");
+			attr(li8, "class", "svelte-ll3htz");
+			attr(li9, "class", "svelte-ll3htz");
+			attr(ul1, "class", "game-howtoplay-ar svelte-ll3htz");
+			attr(div3, "class", "game-requirements-en");
+			attr(div4, "class", "game-requirements-ar");
+			attr(li10, "class", "svelte-ll3htz");
+			attr(li11, "class", "svelte-ll3htz");
+			attr(ul2, "class", "game-rules-en svelte-ll3htz");
+			attr(li12, "class", "svelte-ll3htz");
+			attr(li13, "class", "svelte-ll3htz");
+			attr(ul3, "class", "game-rules-ar svelte-ll3htz");
+			set_style(div5, "display", "none");
+			attr(button1, "class", "game-button svelte-ll3htz");
 
 			attr(button1, "aria-label", button1_aria_label_value = /*isArabic*/ ctx[0]
 			? "عرض تفاصيل لعبة شيتهيد"
 			: "View Shithead game details");
 
-			attr(div5, "class", "game-data");
-			attr(div5, "data-name", "Shithead");
-			attr(div5, "data-name-ar", "شيتهيد");
-			attr(div6, "class", "game-description-en");
-			attr(div7, "class", "game-description-ar");
-			attr(li14, "class", "svelte-179naqe");
-			attr(li15, "class", "svelte-179naqe");
-			attr(li16, "class", "svelte-179naqe");
-			attr(li17, "class", "svelte-179naqe");
-			attr(li18, "class", "svelte-179naqe");
-			attr(ul4, "class", "game-howtoplay-en svelte-179naqe");
-			attr(li19, "class", "svelte-179naqe");
-			attr(li20, "class", "svelte-179naqe");
-			attr(li21, "class", "svelte-179naqe");
-			attr(li22, "class", "svelte-179naqe");
-			attr(li23, "class", "svelte-179naqe");
-			attr(ul5, "class", "game-howtoplay-ar svelte-179naqe");
-			attr(div8, "class", "game-requirements-en");
-			attr(div9, "class", "game-requirements-ar");
-			attr(li24, "class", "svelte-179naqe");
-			attr(li25, "class", "svelte-179naqe");
-			attr(ul6, "class", "game-rules-en svelte-179naqe");
-			attr(li26, "class", "svelte-179naqe");
-			attr(li27, "class", "svelte-179naqe");
-			attr(ul7, "class", "game-rules-ar svelte-179naqe");
-			set_style(div10, "display", "none");
-			attr(button2, "class", "game-button svelte-179naqe");
+			attr(div6, "class", "game-data");
+			attr(div6, "data-name", "Shithead");
+			attr(div6, "data-name-ar", "شيتهيد");
+			attr(div7, "class", "game-description-en");
+			attr(div8, "class", "game-description-ar");
+			attr(li14, "class", "svelte-ll3htz");
+			attr(li15, "class", "svelte-ll3htz");
+			attr(li16, "class", "svelte-ll3htz");
+			attr(li17, "class", "svelte-ll3htz");
+			attr(li18, "class", "svelte-ll3htz");
+			attr(ul4, "class", "game-howtoplay-en svelte-ll3htz");
+			attr(li19, "class", "svelte-ll3htz");
+			attr(li20, "class", "svelte-ll3htz");
+			attr(li21, "class", "svelte-ll3htz");
+			attr(li22, "class", "svelte-ll3htz");
+			attr(li23, "class", "svelte-ll3htz");
+			attr(ul5, "class", "game-howtoplay-ar svelte-ll3htz");
+			attr(div9, "class", "game-requirements-en");
+			attr(div10, "class", "game-requirements-ar");
+			attr(li24, "class", "svelte-ll3htz");
+			attr(li25, "class", "svelte-ll3htz");
+			attr(ul6, "class", "game-rules-en svelte-ll3htz");
+			attr(li26, "class", "svelte-ll3htz");
+			attr(li27, "class", "svelte-ll3htz");
+			attr(ul7, "class", "game-rules-ar svelte-ll3htz");
+			set_style(div11, "display", "none");
+			attr(button2, "class", "game-button svelte-ll3htz");
 
 			attr(button2, "aria-label", button2_aria_label_value = /*isArabic*/ ctx[0]
 			? "عرض تفاصيل لعبة سفنز"
 			: "View Sevens game details");
 
-			attr(div11, "class", "game-data");
-			attr(div11, "data-name", "Sevens");
-			attr(div11, "data-name-ar", "سفنز");
-			attr(div12, "class", "game-description-en");
-			attr(div13, "class", "game-description-ar");
-			attr(li28, "class", "svelte-179naqe");
-			attr(li29, "class", "svelte-179naqe");
-			attr(li30, "class", "svelte-179naqe");
-			attr(li31, "class", "svelte-179naqe");
-			attr(li32, "class", "svelte-179naqe");
-			attr(ul8, "class", "game-howtoplay-en svelte-179naqe");
-			attr(li33, "class", "svelte-179naqe");
-			attr(li34, "class", "svelte-179naqe");
-			attr(li35, "class", "svelte-179naqe");
-			attr(li36, "class", "svelte-179naqe");
-			attr(li37, "class", "svelte-179naqe");
-			attr(ul9, "class", "game-howtoplay-ar svelte-179naqe");
-			attr(div14, "class", "game-requirements-en");
-			attr(div15, "class", "game-requirements-ar");
-			attr(li38, "class", "svelte-179naqe");
-			attr(li39, "class", "svelte-179naqe");
-			attr(ul10, "class", "game-rules-en svelte-179naqe");
-			attr(li40, "class", "svelte-179naqe");
-			attr(li41, "class", "svelte-179naqe");
-			attr(ul11, "class", "game-rules-ar svelte-179naqe");
-			set_style(div16, "display", "none");
-			attr(button3, "class", "game-button svelte-179naqe");
+			attr(div12, "class", "game-data");
+			attr(div12, "data-name", "Sevens");
+			attr(div12, "data-name-ar", "سفنز");
+			attr(div13, "class", "game-description-en");
+			attr(div14, "class", "game-description-ar");
+			attr(li28, "class", "svelte-ll3htz");
+			attr(li29, "class", "svelte-ll3htz");
+			attr(li30, "class", "svelte-ll3htz");
+			attr(li31, "class", "svelte-ll3htz");
+			attr(li32, "class", "svelte-ll3htz");
+			attr(ul8, "class", "game-howtoplay-en svelte-ll3htz");
+			attr(li33, "class", "svelte-ll3htz");
+			attr(li34, "class", "svelte-ll3htz");
+			attr(li35, "class", "svelte-ll3htz");
+			attr(li36, "class", "svelte-ll3htz");
+			attr(li37, "class", "svelte-ll3htz");
+			attr(ul9, "class", "game-howtoplay-ar svelte-ll3htz");
+			attr(div15, "class", "game-requirements-en");
+			attr(div16, "class", "game-requirements-ar");
+			attr(li38, "class", "svelte-ll3htz");
+			attr(li39, "class", "svelte-ll3htz");
+			attr(ul10, "class", "game-rules-en svelte-ll3htz");
+			attr(li40, "class", "svelte-ll3htz");
+			attr(li41, "class", "svelte-ll3htz");
+			attr(ul11, "class", "game-rules-ar svelte-ll3htz");
+			set_style(div17, "display", "none");
+			attr(button3, "class", "game-button svelte-ll3htz");
 
 			attr(button3, "aria-label", button3_aria_label_value = /*isArabic*/ ctx[0]
 			? "عرض تفاصيل لعبة هارتس"
 			: "View Hearts game details");
 
-			attr(div17, "class", "game-data");
-			attr(div17, "data-name", "Hearts");
-			attr(div17, "data-name-ar", "هارتس");
-			attr(div18, "class", "games-container svelte-179naqe");
-			attr(div19, "class", "container svelte-179naqe");
-			attr(main, "class", main_class_value = "" + (null_to_empty(/*isArabic*/ ctx[0] ? 'rtl' : 'ltr') + " svelte-179naqe"));
+			attr(div18, "class", "game-data");
+			attr(div18, "data-name", "Hearts");
+			attr(div18, "data-name-ar", "هارتس");
+			attr(div19, "class", "games-container svelte-ll3htz");
+			attr(div20, "class", "container svelte-ll3htz");
+			attr(main, "class", main_class_value = "" + (null_to_empty(/*isArabic*/ ctx[0] ? 'rtl' : 'ltr') + " svelte-ll3htz"));
 		},
 		m(target, anchor) {
 			insert_hydration(target, main, anchor);
-			append_hydration(main, div19);
-			append_hydration(div19, header);
+			append_hydration(main, div20);
+			append_hydration(div20, header);
 			append_hydration(header, h1);
 			append_hydration(h1, t0);
 			append_hydration(header, t1);
 			append_hydration(header, p);
 			append_hydration(p, t2);
 			append_hydration(header, t3);
-			append_hydration(header, a);
+			append_hydration(header, div0);
+			append_hydration(div0, a);
 			append_hydration(a, img);
 			append_hydration(a, t4);
 			append_hydration(a, t5);
-			append_hydration(header, t6);
-			append_hydration(header, button0);
+			append_hydration(div0, t6);
+			append_hydration(div0, button0);
 			append_hydration(button0, t7);
-			append_hydration(div19, t8);
-			append_hydration(div19, div18);
-			append_hydration(div18, div5);
-			append_hydration(div5, div4);
-			append_hydration(div4, div0);
-			append_hydration(div0, t9);
-			append_hydration(div4, t10);
-			append_hydration(div4, div1);
-			append_hydration(div1, t11);
-			append_hydration(div4, t12);
-			append_hydration(div4, ul0);
+			append_hydration(div20, t8);
+			append_hydration(div20, div19);
+			append_hydration(div19, div6);
+			append_hydration(div6, div5);
+			append_hydration(div5, div1);
+			append_hydration(div1, t9);
+			append_hydration(div5, t10);
+			append_hydration(div5, div2);
+			append_hydration(div2, t11);
+			append_hydration(div5, t12);
+			append_hydration(div5, ul0);
 			append_hydration(ul0, li0);
 			append_hydration(li0, t13);
 			append_hydration(ul0, t14);
@@ -2023,8 +2029,8 @@ function create_fragment(ctx) {
 			append_hydration(ul0, t20);
 			append_hydration(ul0, li4);
 			append_hydration(li4, t21);
-			append_hydration(div4, t22);
-			append_hydration(div4, ul1);
+			append_hydration(div5, t22);
+			append_hydration(div5, ul1);
 			append_hydration(ul1, li5);
 			append_hydration(li5, t23);
 			append_hydration(ul1, t24);
@@ -2039,39 +2045,39 @@ function create_fragment(ctx) {
 			append_hydration(ul1, t30);
 			append_hydration(ul1, li9);
 			append_hydration(li9, t31);
-			append_hydration(div4, t32);
-			append_hydration(div4, div2);
-			append_hydration(div2, t33);
-			append_hydration(div4, t34);
-			append_hydration(div4, div3);
-			append_hydration(div3, t35);
-			append_hydration(div4, t36);
-			append_hydration(div4, ul2);
+			append_hydration(div5, t32);
+			append_hydration(div5, div3);
+			append_hydration(div3, t33);
+			append_hydration(div5, t34);
+			append_hydration(div5, div4);
+			append_hydration(div4, t35);
+			append_hydration(div5, t36);
+			append_hydration(div5, ul2);
 			append_hydration(ul2, li10);
 			append_hydration(li10, t37);
 			append_hydration(ul2, t38);
 			append_hydration(ul2, li11);
 			append_hydration(li11, t39);
-			append_hydration(div4, t40);
-			append_hydration(div4, ul3);
+			append_hydration(div5, t40);
+			append_hydration(div5, ul3);
 			append_hydration(ul3, li12);
 			append_hydration(li12, t41);
 			append_hydration(ul3, t42);
 			append_hydration(ul3, li13);
 			append_hydration(li13, t43);
-			append_hydration(div5, t44);
-			append_hydration(div5, button1);
+			append_hydration(div6, t44);
+			append_hydration(div6, button1);
 			append_hydration(button1, t45);
-			append_hydration(div18, t46);
-			append_hydration(div18, div11);
-			append_hydration(div11, div10);
-			append_hydration(div10, div6);
-			append_hydration(div6, t47);
-			append_hydration(div10, t48);
-			append_hydration(div10, div7);
-			append_hydration(div7, t49);
-			append_hydration(div10, t50);
-			append_hydration(div10, ul4);
+			append_hydration(div19, t46);
+			append_hydration(div19, div12);
+			append_hydration(div12, div11);
+			append_hydration(div11, div7);
+			append_hydration(div7, t47);
+			append_hydration(div11, t48);
+			append_hydration(div11, div8);
+			append_hydration(div8, t49);
+			append_hydration(div11, t50);
+			append_hydration(div11, ul4);
 			append_hydration(ul4, li14);
 			append_hydration(li14, t51);
 			append_hydration(ul4, t52);
@@ -2086,8 +2092,8 @@ function create_fragment(ctx) {
 			append_hydration(ul4, t58);
 			append_hydration(ul4, li18);
 			append_hydration(li18, t59);
-			append_hydration(div10, t60);
-			append_hydration(div10, ul5);
+			append_hydration(div11, t60);
+			append_hydration(div11, ul5);
 			append_hydration(ul5, li19);
 			append_hydration(li19, t61);
 			append_hydration(ul5, t62);
@@ -2102,39 +2108,39 @@ function create_fragment(ctx) {
 			append_hydration(ul5, t68);
 			append_hydration(ul5, li23);
 			append_hydration(li23, t69);
-			append_hydration(div10, t70);
-			append_hydration(div10, div8);
-			append_hydration(div8, t71);
-			append_hydration(div10, t72);
-			append_hydration(div10, div9);
-			append_hydration(div9, t73);
-			append_hydration(div10, t74);
-			append_hydration(div10, ul6);
+			append_hydration(div11, t70);
+			append_hydration(div11, div9);
+			append_hydration(div9, t71);
+			append_hydration(div11, t72);
+			append_hydration(div11, div10);
+			append_hydration(div10, t73);
+			append_hydration(div11, t74);
+			append_hydration(div11, ul6);
 			append_hydration(ul6, li24);
 			append_hydration(li24, t75);
 			append_hydration(ul6, t76);
 			append_hydration(ul6, li25);
 			append_hydration(li25, t77);
-			append_hydration(div10, t78);
-			append_hydration(div10, ul7);
+			append_hydration(div11, t78);
+			append_hydration(div11, ul7);
 			append_hydration(ul7, li26);
 			append_hydration(li26, t79);
 			append_hydration(ul7, t80);
 			append_hydration(ul7, li27);
 			append_hydration(li27, t81);
-			append_hydration(div11, t82);
-			append_hydration(div11, button2);
+			append_hydration(div12, t82);
+			append_hydration(div12, button2);
 			append_hydration(button2, t83);
-			append_hydration(div18, t84);
+			append_hydration(div19, t84);
+			append_hydration(div19, div18);
 			append_hydration(div18, div17);
-			append_hydration(div17, div16);
-			append_hydration(div16, div12);
-			append_hydration(div12, t85);
-			append_hydration(div16, t86);
-			append_hydration(div16, div13);
-			append_hydration(div13, t87);
-			append_hydration(div16, t88);
-			append_hydration(div16, ul8);
+			append_hydration(div17, div13);
+			append_hydration(div13, t85);
+			append_hydration(div17, t86);
+			append_hydration(div17, div14);
+			append_hydration(div14, t87);
+			append_hydration(div17, t88);
+			append_hydration(div17, ul8);
 			append_hydration(ul8, li28);
 			append_hydration(li28, t89);
 			append_hydration(ul8, t90);
@@ -2149,8 +2155,8 @@ function create_fragment(ctx) {
 			append_hydration(ul8, t96);
 			append_hydration(ul8, li32);
 			append_hydration(li32, t97);
-			append_hydration(div16, t98);
-			append_hydration(div16, ul9);
+			append_hydration(div17, t98);
+			append_hydration(div17, ul9);
 			append_hydration(ul9, li33);
 			append_hydration(li33, t99);
 			append_hydration(ul9, t100);
@@ -2165,31 +2171,31 @@ function create_fragment(ctx) {
 			append_hydration(ul9, t106);
 			append_hydration(ul9, li37);
 			append_hydration(li37, t107);
-			append_hydration(div16, t108);
-			append_hydration(div16, div14);
-			append_hydration(div14, t109);
-			append_hydration(div16, t110);
-			append_hydration(div16, div15);
-			append_hydration(div15, t111);
-			append_hydration(div16, t112);
-			append_hydration(div16, ul10);
+			append_hydration(div17, t108);
+			append_hydration(div17, div15);
+			append_hydration(div15, t109);
+			append_hydration(div17, t110);
+			append_hydration(div17, div16);
+			append_hydration(div16, t111);
+			append_hydration(div17, t112);
+			append_hydration(div17, ul10);
 			append_hydration(ul10, li38);
 			append_hydration(li38, t113);
 			append_hydration(ul10, t114);
 			append_hydration(ul10, li39);
 			append_hydration(li39, t115);
-			append_hydration(div16, t116);
-			append_hydration(div16, ul11);
+			append_hydration(div17, t116);
+			append_hydration(div17, ul11);
 			append_hydration(ul11, li40);
 			append_hydration(li40, t117);
 			append_hydration(ul11, t118);
 			append_hydration(ul11, li41);
 			append_hydration(li41, t119);
-			append_hydration(div17, t120);
-			append_hydration(div17, button3);
+			append_hydration(div18, t120);
+			append_hydration(div18, button3);
 			append_hydration(button3, t121);
-			append_hydration(div19, t122);
-			if (if_block) if_block.m(div19, null);
+			append_hydration(div20, t122);
+			if (if_block) if_block.m(div20, null);
 
 			if (!mounted) {
 				dispose = [
@@ -2255,14 +2261,14 @@ function create_fragment(ctx) {
 				} else {
 					if_block = create_if_block(ctx);
 					if_block.c();
-					if_block.m(div19, null);
+					if_block.m(div20, null);
 				}
 			} else if (if_block) {
 				if_block.d(1);
 				if_block = null;
 			}
 
-			if (dirty & /*isArabic*/ 1 && main_class_value !== (main_class_value = "" + (null_to_empty(/*isArabic*/ ctx[0] ? 'rtl' : 'ltr') + " svelte-179naqe"))) {
+			if (dirty & /*isArabic*/ 1 && main_class_value !== (main_class_value = "" + (null_to_empty(/*isArabic*/ ctx[0] ? 'rtl' : 'ltr') + " svelte-ll3htz"))) {
 				attr(main, "class", main_class_value);
 			}
 		},
